@@ -1,5 +1,6 @@
 # Blue-Team
 
+
 #### PATH LEARN BLUE TEAM
 
 + System Hardening and Security
@@ -62,3 +63,7 @@
 •	Certifications: Pursue additional certifications as you advance (e.g., CISSP, CEH, CySA+).
 •	Conferences and Meetups: Attend cybersecurity conferences (e.g., DEF CON, Black Hat) and local meetups.
 •	Professional Associations: Join organizations like (ISC)² or ISACA.
+
+#### Resources
+
+https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro
