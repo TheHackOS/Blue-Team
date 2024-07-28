@@ -67,3 +67,11 @@
 #### Resources
 
 https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro
+
+#### PROYECTS IMPLEMENT
+
+[+] SET UP SIEM
+- PLANIFICACION DEL ESCENARIO
+    TIPO DE INCIDENTE : acceso no autorizado ssh u otros accesos
+	OBJETIVO DE APRENDIZAJE : Deteccion de intrusiones, respuesta a incidentes
+- CONFIGURACION DEL ENTORNO
