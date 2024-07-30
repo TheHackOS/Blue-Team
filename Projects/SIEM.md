@@ -28,8 +28,8 @@ https://www.elastic.co/guide/en/observability/8.14/logs-metrics-get-started.html
 
 ![img](../resources/img3.png)
 
-#### Desarrollar Elastic Security for SIEM
+#### Desarrollar Elastic Security para SIEM
 
-
+![img](../resources/img4.png)
 
 https://www.elastic.co/guide/en/starting-with-the-elasticsearch-platform-and-its-solutions/current/getting-started-siem-security.html
