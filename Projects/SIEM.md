@@ -10,7 +10,7 @@ https://www.elastic.co/es/
 
 #### Monitorear Logs y Metricas
 
-![img](./resources/img1.png)
+![img](../resources/img1.png)
 
 
 https://www.elastic.co/guide/en/observability/8.14/logs-metrics-get-started.html#add-system-integration
