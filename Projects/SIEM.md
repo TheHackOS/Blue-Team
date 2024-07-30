@@ -14,3 +14,9 @@ https://www.elastic.co/es/
 
 
 https://www.elastic.co/guide/en/observability/8.14/logs-metrics-get-started.html#add-system-integration
+
+
+
++ Hacer SIEM
+
+https://www.elastic.co/guide/en/starting-with-the-elasticsearch-platform-and-its-solutions/current/getting-started-siem-security.html
