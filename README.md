@@ -71,7 +71,6 @@ https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro
 #### PROYECTS IMPLEMENT
 
 [+] SET UP SIEM
-- PLANIFICACION DEL ESCENARIO
-    TIPO DE INCIDENTE : acceso no autorizado ssh u otros accesos
-	OBJETIVO DE APRENDIZAJE : Deteccion de intrusiones, respuesta a incidentes
-- CONFIGURACION DEL ENTORNO
+[+] Set Up a Personal Lab Environment : https://blog.davidvarghese.dev/posts/building-home-lab-part-1/
+[+] Hardening Practice for Linux and Windows
+[+] Practice Vulnerability Management and Patch Management
