@@ -1,8 +1,8 @@
 ### INDEX
 
 - [Uso Elastic](#uso-elastic)
-- [Monitorear Logs y Metricas](#monitorear-logs-y-metricas)
-- [Desarrollar Elastic Security for SIEM](#desarrollar-elastic-security-for-siem)
+- [Monitorear Logs y metricas system](#monitorear-logs-y-metricas-system)
+- [Logs y metricas apache](#logs-y-metricas-apache)
 
 ### Uso Elastic
 
@@ -10,26 +10,30 @@ Es un motor de búsqueda con capacidades analíticas que permite procesar grande
 
 https://www.elastic.co/es/
 
-#### Monitorear Logs y Metricas
+#### Monitorear Logs y Metricas system
 
-[+] Logs ssh
+[+] Logs system
  
 ![img](../resources/img1.png)
 
-[+] Logs 
-
-https://www.elastic.co/guide/en/observability/8.14/logs-metrics-get-started.html#add-system-integration
-
-[+] Comando sudo
+[+] Syslog
 
 ![img](../resources/img2.png)
 
-[+] Syslog
+[+] Nuevos usuarios y grupos
 
 ![img](../resources/img3.png)
 
-#### Desarrollar Elastic Security para SIEM
+[+] Comandos sudo
 
 ![img](../resources/img4.png)
 
-https://www.elastic.co/guide/en/starting-with-the-elasticsearch-platform-and-its-solutions/current/getting-started-siem-security.html
+[+] Grafica completa
+
+![img](../resources/img5.png)
+
+#### Logs y metricas apache
+
+![img](../resources/img6.png)
+
++ Podemos filtrar por solicitudes exitosas y no exitosas y recopilar actores maliciosos que solicitan los recursos
