@@ -3,6 +3,7 @@
 - [Uso Elastic](#uso-elastic)
 - [Monitorear Logs y metricas system](#monitorear-logs-y-metricas-system)
 - [Logs y metricas apache](#logs-y-metricas-apache)
+- [Recursos](#recursos)
 
 ### Uso Elastic
 
@@ -37,3 +38,7 @@ https://www.elastic.co/es/
 ![img](../resources/img6.png)
 
 + Podemos filtrar por solicitudes exitosas y no exitosas y recopilar actores maliciosos que solicitan los recursos
+
+#### Recursos
+
++ [How To Build A SIEM with Suricata and Elastic Stack on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-build-a-siem-with-suricata-and-elastic-stack-on-ubuntu-20-04#step--5-configuring-filebeat)
