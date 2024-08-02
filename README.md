@@ -70,7 +70,13 @@ https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro
 
 #### PROYECTS IMPLEMENT
 
-[+] SET UP SIEM
-[+] Set Up a Personal Lab Environment : https://blog.davidvarghese.dev/posts/building-home-lab-part-1/
-[+] Hardening Practice for Linux and Windows
-[+] Practice Vulnerability Management and Patch Management
++ SIEM
+https://blog.davidvarghese.dev/posts/building-home-lab-part-1/
+    - SPLUNK
+
++ Web application firewall Implementation
++ Ejercicio de blue team active directory
++ Incident Response Automation Framework
++ SFTP Implementation
++ Secure IOT Device Management Security System
++ Secure Email Gateway Implementation
