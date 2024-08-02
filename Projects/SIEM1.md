@@ -25,6 +25,8 @@
     o	Análisis de Nuevas Funcionalidades: Investiga y experimenta con nuevas funcionalidades de Splunk y cómo pueden ser utilizadas en un entorno de seguridad.
     o	Casos de Uso Reales: Investiga y documenta casos de uso reales en los que Splunk ha sido utilizado exitosamente para resolver problemas de seguridad.
 
+    https://docs.splunk.com/Documentation/Splunk/latest/Data/WhatSplunkcanmonitor?_gl=1*4vmvd8*_gcl_au*ODYxMzIyMzIxLjE3MjI2MjkyNzI.*FPAU*ODYxMzIyMzIxLjE3MjI2MjkyNzI.*_ga*NjU3NDY1NjM0LjE3MjI2MjkyNzI.*_ga_5EPM2P39FV*MTcyMjYyOTI3Mi4xLjEuMTcyMjYzMDQxMC4wLjAuODE4NjQ3Njc1
+
 Cómo Incluir Esto en Tu CV
 1.	Experiencia de Proyectos:
     o	Descripción de Proyectos: Detalla los proyectos específicos que has realizado con Splunk, incluyendo las tareas que llevaste a cabo y los resultados obtenidos.
