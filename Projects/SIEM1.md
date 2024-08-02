@@ -7,6 +7,7 @@
     o	Dashboards Personalizados: Diseña dashboards que muestren información clave sobre la seguridad, como actividad sospechosa, tendencias de eventos y análisis de amenazas.
     o	Paneles Interactivos: Crea paneles que permitan a los usuarios interactuar con los datos y ver información en tiempo real.
 3.	Desarrollo de Alertas y Correlaciones:
+    o	Análisis y Consultas: Search Language - Practica el uso del lenguaje de búsqueda de Splunk (SPL) para crear consultas y extraer información útil de los datos.
     o	Reglas de Alerta: Configura alertas para eventos específicos como intentos de inicio de sesión fallidos, actividad inusual en la red, o cambios en los archivos críticos.
     o	Correlación de Eventos: Usa Splunk para correlacionar eventos de diferentes fuentes para detectar patrones que puedan indicar un incidente de seguridad.
 4.	Investigación y Análisis de Incidentes:
