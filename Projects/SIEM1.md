@@ -1,5 +1,31 @@
 ### INDEX
 
+- [Creacion de consultas y extracción de datos](#creacion-de-consultas-y-extracción-de-datos)
+
+#### Creacion de consultas y extracción de datos
+
+[+] Consultar logs de ssh, validar intentos de login
+
++ Query splunk
+~~~bash
+source="tcp:2211" index="ssh-logs" src_ip="*.*.*.*" accepted=* | stats count by src_ip,accepted | sort -count
+~~~
+
+![img](../resources/splunk1.png)
+
+[+] Comparar direcciones ip con una lista negra
+
++ Query splunk
+~~~bash
+source="tcp:2211" index="ssh-logs" src_ip=* accepted=*
+| lookup ip_blacks ip_blacks AS src_ip OUTPUT ip_blacks AS blacklisted
+| where isnotnull(blacklisted) | eval datetime=strftime(_time, "%d/%m/%Y") | stats count by datetime, src_ip, accepted
+~~~
+
+![img](../resources/splunk2.png)
+
+
+
 1.	Implementación Básica de Splunk:
     o	Instalación y Configuración: Instala Splunk en un entorno de prueba y realiza la configuración inicial.
     o	Indexación de Datos: Configura y agrega fuentes de datos como archivos de registro (logs), datos de red, y eventos del sistema.
