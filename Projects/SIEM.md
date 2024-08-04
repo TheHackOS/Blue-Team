@@ -57,4 +57,5 @@ source="tcp:2211" index="ssh-logs" ip_req=* method=* resource=* status_code=*
 #### Resources
 
 + [Splunk - Basic Search](https://www.tutorialspoint.com/splunk/splunk_basic_searching.htm)
++ [Splunk - Search Tutorial](https://docs.splunk.com/Documentation/Splunk/9.3.0/SearchTutorial/WelcometotheSearchTutorial)
 + [How To Build A SIEM with Suricata and Elastic Stack on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-build-a-siem-with-suricata-and-elastic-stack-on-ubuntu-20-04#step--5-configuring-filebeat)
