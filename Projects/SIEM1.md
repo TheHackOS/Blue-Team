@@ -24,6 +24,21 @@ source="tcp:2211" index="ssh-logs" src_ip=* accepted=*
 
 ![img](../resources/splunk2.png)
 
+[+] Mostrar la distribución de códigos de estado HTTP
+
++ Query splunk
+~~~bash
+source="tcp:2211" index="ssh-logs" ip_req=* method=* resource=* status_code=*
+| stats count by method, status_code
+| eventstats sum(count) as total
+| eval percentage=round((count/total)*100, 2)
+| eval method=method . " - " . status_code
+| fields method, status_code, count, percentage
+| table method, status_code, count, percentage
+~~~
+
+![img](../resources/splunk3.png)
+
 
 
 1.	Implementación Básica de Splunk:
