@@ -2,102 +2,29 @@
 
 ### PROYECTOS BLUE TEAM
 
-#### Proyectos de Detección y Respuesta a Incidentes (IR)
+#### Firewalls (Traditional, NextGen, WAF): 
+To be a successful defender, I need to understand concepts around network segmentation, routing, trusted and untrusted zones. I need to understand the different layers of the OSI model and which security controls can mitigate attacks at which level- and more important which attacks a given control can NOT mitigate. As I examine alerts from these security controls, I need a decent understanding of how they operate so I can recommend and communicate to the managing teams which controls should be engaged to mitigate an attack.
+    
+#### Vulnerability management/patching: 
+As a blue team defender, I am often the first to realize the consequence of an unpatched asset. I have often used vulnerability and patching data in conjunction with alert notifications to determine the probability a given attack was successful or not.
+    
+#### GRC/Policy development: 
+Similar to vulnerability management, the shortcomings of insufficient policies are often first noticed by the blue team. Blue teams are a hidden goldmine of knowledge for policy writers and compliance teams if leveraged correctly. They can often tell you where policy is not being followed, where compliance regulations are being violated, and make recommendations for improvements to policies that would benefit the organization by reducing security incidents.
 
-+ Simulación de Ataques:
-        Configura un entorno de laboratorio con diferentes sistemas operativos y aplicaciones.
-        Simula ataques comunes como ransomware, phishing, explotación de vulnerabilidades y movimientos laterales.
-        Implementa tu propia respuesta a incidentes, documentando cada paso y los aprendizajes obtenidos.
+#### Application Security: 
+After user error (e.g. Phishing), application security may be the second largest attack vector. To be fair, I am casting an exceedingly large and overarching net to include not just secure coding but the management of these systems. For the sake of space, I'll say a blue team member should have awareness of the OWASP top 10 vulnerabilities as he/she investigates attacks.
+    
+#### Data Loss Prevention (DLP)/Insider Threat: I'm somewhat artificially grouping these two together because there is considerable overlap. Not every attack originates external to the company. The most successful blue teamers retain the awareness that some activities could be performed by insiders. Some of the most significant security incidents I have been party to have been authorized individuals performing unauthorized activities.
 
-+ Análisis de Incidentes Reales (si tienes acceso):
-        Analiza incidentes de seguridad reales que hayan ocurrido en tu organización o en otras empresas (si la información es pública).
-        Identifica las causas raíz, los indicadores de compromiso (IOC) y las mejoras que se podrían haber implementado.
-        Desarrolla un playbook de respuesta a incidentes basado en tus hallazgos.
+#### Identity & Access Management: Unauthorized access still remains the primary threat vector for most companies- most often this is observed after a successful phishing attack. Blue team members need a conversational understanding of authentication mechanisms, trusts, 2FA & 2FA bypass, least privilege, groups and privilege inheritance, interactive logins & service account activity and more.
 
-+ EJERCICIOS
+#### Filtering (DNS/Mail/Proxy): Phishing remains the absolute number one way attackers gain access to networks for the past several years. Understanding how attackers bypass spam filters, manipulate DNS and websites to conduct C&C activity is often some of the most investigated activity by incident investigators.
 
-Ejercicios Prácticos:
+#### DoS/DDoS/CDN: Not as common as other attacks, attacks against the availability of systems remains threat vector blue teamers must maintain awareness of. Understanding the intricacies of UDP vs TCP attacks and amplification attacks is often outside the working knowledge maintained by many infosec specializations- but necessary for blue teamers. Understanding the role the content delivery networks play to mitigate these attacks and understanding when attackers are bypassing CDN networks is key to keeping business availability intact.
 
-    Simulación de Ataques en un Entorno Controlado:
-        Configura un laboratorio: Utiliza máquinas virtuales o contenedores para simular diferentes sistemas operativos y aplicaciones (Windows, Linux, servidores web, bases de datos).
-        Elige un ataque: Selecciona un tipo de ataque común como ransomware, phishing, explotación de vulnerabilidades (por ejemplo, utilizando herramientas como Metasploit) o ataques de denegación de servicio (DoS).
-        Ejecuta el ataque: Simula el ataque siguiendo los pasos típicos de un atacante real.
-        Detecta y responde: Utiliza tus herramientas y conocimientos para detectar el ataque, contenerlo y erradicarlo. Documenta cada paso del proceso.
+#### Threat Intelligence/Research: I suspect one thing that is held in common by any person who has ever been charged with incident response is investigating an attack you don't understand. The thing that separates the good from the great is the ability to take a potential security incident that is NOT understood well and make it understandable. This skill alone is sufficient justification why you want your infosec leaders to have blue team experience- but there is still more.
 
-    Análisis de un Caso Real de Incidente:
-        Busca un caso: Busca un incidente de seguridad real que haya sido publicado (por ejemplo, en sitios como VirusTotal, CERT, o en la prensa especializada).
-        Recopila información: Reúne todos los detalles disponibles sobre el incidente, como los indicadores de compromiso (IOCs), los métodos utilizados por los atacantes y las consecuencias.
-        Analiza el incidente: Utiliza herramientas de análisis forense (como Autopsy, Volatility) para analizar archivos, registros y memoria.
-        Identifica las debilidades: Determina qué fallos de seguridad permitieron que se produjera el incidente.
-        Propón mejoras: Sugiere medidas para prevenir incidentes similares en el futuro.
-
-    Creación de un Playbook de Respuesta a Incidentes:
-        Define los roles y responsabilidades: Establece quiénes formarán parte del equipo de respuesta a incidentes y cuáles serán sus funciones.
-        Identifica los incidentes críticos: Determina qué tipos de incidentes requieren una respuesta inmediata.
-        Establece los procedimientos: Define los pasos a seguir en caso de detectar un incidente, desde la detección hasta la recuperación.
-        Documenta todo: Crea un documento detallado con todos los procedimientos y contactos de emergencia.
-
-Recursos Específicos:
-
-    Herramientas:
-        SIEM: Splunk, ELK Stack, Graylog (para recolectar y analizar logs).
-        Análisis Forense: Autopsy, Volatility, FTK Imager.
-        Explotación de Vulnerabilidades: Metasploit, Nmap, Burp Suite.
-        Automatización: Ansible, Puppet, Chef.
-    Entornos de Pruebas:
-        Máquinas Virtuales: VirtualBox, VMware.
-        Contenedores: Docker, Kubernetes.
-        Nubes: AWS, Azure, GCP.
-    Capacitación:
-        Cursos en línea: Udemy, Coursera, Pluralsight.
-        Certificaciones: CompTIA Security+, CISSP, CEH.
-        Comunidades en línea: Foros de seguridad, grupos de LinkedIn.
-
-#### Proyectos de Monitoreo y Análisis de Logs
-
-    Creación de un SIEM Personalizado:
-        Utiliza herramientas open-source como ELK Stack (Elasticsearch, Logstash, Kibana) o Graylog para construir un SIEM a pequeña escala.
-        Configura el SIEM para colectar logs de diferentes fuentes (sistemas operativos, aplicaciones, redes) y crea dashboards personalizados para monitorear la actividad del sistema.
-        Desarrolla reglas de detección de amenazas basadas en indicadores de compromiso conocidos.
-
-    Análisis Forense de Discos:
-        Utiliza herramientas como Autopsy, FTK Imager o Volatility para realizar análisis forense de imágenes de discos.
-        Simula escenarios de incidentes como eliminación de evidencia, cifrado de archivos y ataques persistentes.
-        Documenta tus hallazgos y crea un informe forense.
-
-+ Proyectos de Hardening de Sistemas
-
-    Hardening de un Servidor Linux:
-        Selecciona un sistema operativo Linux (Ubuntu, CentOS, etc.) y sigue las mejores prácticas para endurecerlo.
-        Deshabilita servicios innecesarios, aplica parches de seguridad, configura firewalls, restringe permisos de usuarios y utiliza sistemas de detección de intrusiones (IDS).
-        Crea una línea de base segura para futuras comparaciones.
-
-    Auditoría de Configuración de Redes:
-        Realiza una auditoría de la configuración de redes de tu organización o de una red de prueba.
-        Identifica vulnerabilidades como puertos abiertos innecesarios, protocolos inseguros y configuraciones incorrectas de dispositivos de red.
-        Genera un informe detallado con recomendaciones de mejora.
-
-+ Proyectos de Automatización de Tareas
-
-    Creación de Playbooks de Ansible:
-        Utiliza Ansible para automatizar tareas repetitivas como la instalación de software, la configuración de sistemas y la respuesta a incidentes.
-        Crea playbooks para responder a incidentes comunes como la contención de malware o la restauración de sistemas.
-
-+ Proyectos de Investigación de Amenazas
-
-    Análisis de Amenazas Emergentes:
-        Mantente actualizado sobre las últimas amenazas cibernéticas y las técnicas utilizadas por los atacantes.
-        Analiza informes de vulnerabilidades, campañas de phishing y malware.
-        Desarrolla tus propias herramientas o scripts para identificar y analizar indicadores de compromiso.
-
-+ Consejos Adicionales:
-
-    Documenta todo: Mantén un registro detallado de cada proyecto, incluyendo los objetivos, los pasos realizados, los resultados y las lecciones aprendidas.
-    Utiliza herramientas open-source: Muchas de las herramientas necesarias para estos proyectos son gratuitas y de código abierto, lo que te permitirá aprender y experimentar sin grandes inversiones.
-    Colabora con otros: Participa en comunidades online, foros y grupos de discusión para compartir conocimientos y aprender de otros profesionales de la seguridad.
-    Personaliza tus proyectos: Adapta los proyectos a tus intereses y a las tecnologías que dominas.
-
-
+#### Incident Response: If security controls and people were perfect, incident response (the role of blue team) wouldn't be necessary at all. But security controls are often deficient and NO CONTROL is 100% effective and people still make mistakes. It's not a matter of if you have a cyber incident, just a matter of when. The experienced blue team is who you want at the helm of the ship when that day comes.
 
 #### Resources
 
