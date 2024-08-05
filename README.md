@@ -7,15 +7,15 @@ To be a successful defender, I need to understand concepts around network segmen
 
 1. Nivel de Experiencia:
 
-    Principiante:
++ Principiante:
         Configuración básica de firewalls: Practica con diferentes tipos de firewalls (hardware, software, NGFW) configurando reglas simples para bloquear o permitir tráfico en base a puertos, direcciones IP y protocolos.
         Análisis de logs: Aprende a interpretar los logs de un firewall para identificar patrones de tráfico, posibles intrusiones y generar alertas.
         Simulaciones de ataques: Utiliza herramientas como Metasploit para simular ataques comunes y observa cómo responde tu firewall.
-    Intermedio:
++ Intermedio:
         Segmentación de redes: Diseña y implementa una arquitectura de red segmentada utilizando firewalls para aislar diferentes zonas de tu red (DMZ, red interna, etc.).
         Implementación de IDS/IPS: Integra un sistema de detección y prevención de intrusiones (IDS/IPS) con tu firewall para detectar amenazas más sofisticadas.
         Gestión de vulnerabilidades: Realiza escaneos de vulnerabilidades en tu red y configura reglas en el firewall para mitigar los riesgos identificados.
-    Avanzado:
++ Avanzado:
         Orquestación de la respuesta a incidentes: Automatiza la respuesta a incidentes utilizando herramientas de orquestación de seguridad y el firewall como un elemento clave.
         Análisis de amenazas: Realiza análisis de amenazas avanzados para identificar los riesgos más probables y diseñar estrategias de defensa proactivas.
         Implementación de Zero Trust: Diseña una arquitectura de seguridad basada en el principio de "confianza cero", utilizando firewalls para segmentar el tráfico y aplicar políticas de acceso granular.
