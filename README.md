@@ -29,6 +29,7 @@ After user error (e.g. Phishing), application security may be the second largest
 #### Resources
 
 https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro
+https://www.linkedin.com/pulse/why-you-want-blue-team-experience-from-your-next-hire-anthony-morris
 
 #### PROYECTS IMPLEMENT
 
