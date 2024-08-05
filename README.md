@@ -4,6 +4,41 @@
 
 #### Firewalls (Traditional, NextGen, WAF): 
 To be a successful defender, I need to understand concepts around network segmentation, routing, trusted and untrusted zones. I need to understand the different layers of the OSI model and which security controls can mitigate attacks at which level- and more important which attacks a given control can NOT mitigate. As I examine alerts from these security controls, I need a decent understanding of how they operate so I can recommend and communicate to the managing teams which controls should be engaged to mitigate an attack.
+
+1. Nivel de Experiencia:
+
+    Principiante:
+        Configuración básica de firewalls: Practica con diferentes tipos de firewalls (hardware, software, NGFW) configurando reglas simples para bloquear o permitir tráfico en base a puertos, direcciones IP y protocolos.
+        Análisis de logs: Aprende a interpretar los logs de un firewall para identificar patrones de tráfico, posibles intrusiones y generar alertas.
+        Simulaciones de ataques: Utiliza herramientas como Metasploit para simular ataques comunes y observa cómo responde tu firewall.
+    Intermedio:
+        Segmentación de redes: Diseña y implementa una arquitectura de red segmentada utilizando firewalls para aislar diferentes zonas de tu red (DMZ, red interna, etc.).
+        Implementación de IDS/IPS: Integra un sistema de detección y prevención de intrusiones (IDS/IPS) con tu firewall para detectar amenazas más sofisticadas.
+        Gestión de vulnerabilidades: Realiza escaneos de vulnerabilidades en tu red y configura reglas en el firewall para mitigar los riesgos identificados.
+    Avanzado:
+        Orquestación de la respuesta a incidentes: Automatiza la respuesta a incidentes utilizando herramientas de orquestación de seguridad y el firewall como un elemento clave.
+        Análisis de amenazas: Realiza análisis de amenazas avanzados para identificar los riesgos más probables y diseñar estrategias de defensa proactivas.
+        Implementación de Zero Trust: Diseña una arquitectura de seguridad basada en el principio de "confianza cero", utilizando firewalls para segmentar el tráfico y aplicar políticas de acceso granular.
+
+2. Entorno:
+
+    Laboratorio virtual: Utiliza plataformas como VirtualBox o VMware para crear un entorno de laboratorio seguro y flexible donde experimentar con diferentes configuraciones de firewall.
+    Red doméstica: Implementa un firewall en tu red doméstica para proteger tus dispositivos personales.
+    Red empresarial: Si tienes acceso a una red empresarial, puedes colaborar con el equipo de seguridad para implementar proyectos más complejos.
+
+3. Herramientas:
+
+    Firewalls: Explora diferentes opciones como pfSense, OPNsense, Cisco ASA, Fortigate, etc.
+    IDS/IPS: Snort, Suricata, SIEM (Splunk, Elastic).
+    Herramientas de gestión de configuración: Ansible, Puppet.
+    Herramientas de orquestación de seguridad: SOAR (Security Orchestration, Automation and Response).
+
+Ejemplos concretos de proyectos:
+
+    Creación de un laboratorio de ciberseguridad: Configura un laboratorio virtual con diferentes sistemas operativos, aplicaciones y un firewall para simular un entorno empresarial.
+    Implementación de un firewall en una pequeña empresa: Analiza la infraestructura de una pequeña empresa y diseña una política de seguridad basada en firewalls para proteger sus activos.
+    Desarrollo de una solución de detección de intrusiones: Crea un sistema de detección de intrusiones basado en reglas personalizadas para identificar ataques específicos.
+    Automatización de la respuesta a incidentes: Desarrolla un playbook para automatizar la respuesta a incidentes comunes, como la detección de malware o ataques de fuerza bruta.
     
 #### Vulnerability management/patching: 
 As a blue team defender, I am often the first to realize the consequence of an unpatched asset. I have often used vulnerability and patching data in conjunction with alert notifications to determine the probability a given attack was successful or not.
