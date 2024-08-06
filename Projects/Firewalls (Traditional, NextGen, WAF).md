@@ -1,3 +1,61 @@
+### INDEX
+
+- [Configuraciones iniciales](#configuraciones-iniciales)
+    - [Enable ssh](#enable-ssh)
+    - [Add user](#add-user)
+    - [Disable IPv6](#disable-ipv6)
+    - [Personalizar dashboard]()
+    - []()
+    - []()
+- [Firewall Rules](#firewall-rules)
+
+### Configuraciones iniciales
+
+#### Enable ssh
+
+~~~bash
+System / Advanced / Admin Access > Secure Shell > Secure Shell Server : Enable Secure Shell
+~~~
+
+#### Add user
+
+~~~bash
+System/User Manager/Users > Add
+~~~
+
+#### Disable IPv6
+
+~~~bash
+- System/Advanced/Networking>IPv6 Options>Allow IPv6 : uncheck
+- Services/DHCPv6 Server >DHCPv6 Options>DHCPv6 Server>Enable DHCPv6 server on interface : uncheck
+- Interfaces/WAN>General Configuration>IPv6 Configuration Type : Select none
+- Delete or disable some rules firewall IPv6 
+~~~
+
+#### Personalizar dashboard
+
+~~~ bash
+Status/Dashboard> Select + > select option
+System/General Setup> webConfigurator> theme:select theme > reload for apply changes
+
+# Record the source, destination, protocol, ports and state the connection 
+Diagnostics> States
+~~~
+
+### FIREWALL RULES
+
++ Firewall / Rules / Lan
++ El orden las reglas es importante, la primera regla sobreescribe a las reglas anteriores
+
+[+] Bloqueo ssh
+
++ Interfaz LAN bloqueo puerto ssh hacia interfaz CYBER_RANGE
+
+![img](../resources/firewall1.png)
+
+
+
+
 https://www.youtube.com/watch?v=PBLFYvUIU54&t=2166s
 
 LAN address :  Allows or blocks traffic specifically from the pfSense firewall itself (for example, if pfSense is running a service like DNS or a web server that should be accessible only from the LAN)
