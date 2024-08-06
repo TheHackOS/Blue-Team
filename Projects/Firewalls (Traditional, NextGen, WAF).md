@@ -7,7 +7,12 @@
     - [Personalizar dashboard]()
     - []()
     - []()
-- [Firewall Rules](#firewall-rules)
+
+- [Firewall](#firewall)
+    - [Firewall rules](#firewall-rules)
+    - [Firewall logs](#firewall-logs)
+    - [Firewall Aliases](#firewall-aliases)
+    - [Firewall ICMP](#firewall-icmp)
 
 ### Configuraciones iniciales
 
@@ -42,7 +47,9 @@ System/General Setup> webConfigurator> theme:select theme > reload for apply cha
 Diagnostics> States
 ~~~
 
-### FIREWALL RULES
+### FIREWALL
+
+#### Firewall rules
 
 + Firewall / Rules / Lan
 + El orden las reglas es importante, la primera regla sobreescribe a las reglas anteriores
@@ -53,6 +60,39 @@ Diagnostics> States
 
 ![img](../resources/firewall1.png)
 
+
+#### Firewall logs
+
++ Presionamos en filter 
+~~~bash
+Status/System Logs/Firewall/Normal View
+~~~
+
+#### Firewall Aliases
+
++ Agrupar algunas reglas en una sola (ip/port/url), en este caso agrupamos por puertos
+
+~~~bash
+Firewall/Aliases/Ports
+~~~
+
+![img](../resources/firewall2.png)
+
+#### Firewall ICMP
+
++ En las opciones de ICMP subtypes seleccionar estos :
+~~~
+Echo request
+Parameter problem (invalid IP header)
+Time exceeded
+Destination unreachable
+~~~
+
+![img](../resources/firewall3.png)
+
+![img](../resources/firewall4.png)
+
+### Determinar que permitir para el filtrado de salida
 
 
 
