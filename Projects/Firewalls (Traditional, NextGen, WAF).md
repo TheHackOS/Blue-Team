@@ -21,6 +21,7 @@
     - [Configuracion DNS](#configuracion-dns)
     - [Configuracion de reglas firewall](#configuracion-de-reglas-firewall)
 
+- [Resources]()
 
 ### Configuraciones iniciales
 
@@ -223,3 +224,8 @@ remote-cert-tls server
 ![img](../resources/firewall21.png)
 
 [+] Revisar la conexion si activo la VPN
+
+### RESOURCES
+
++ https://www.perfect-privacy.com/en/manuals/router_pfsense_openvpn
++ https://www.comparitech.com/blog/vpn-privacy/openvpn-server-pfsense/
